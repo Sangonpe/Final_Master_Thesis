@@ -7,7 +7,9 @@ import codigo_tfm_prog_objetos as tfm
 
 
 if __name__ == '__main__':
-    precios = pd.read_csv('data_pmd\export_PrecioMedioHorarioComponenteMercadoDiario _2019.csv', sep=';') # Fichero del cual obtenemos los precios de la energía
+    # Fichero del cual obtenemos los precios de la energía 
+    precios = pd.read_csv('data_pmd\export_PrecioMedioHorarioComponenteMercadoDiario _2019.csv', sep=';') # TODO Crear carpeta data_pmd para guardar los ficheros a leer
+    
 
     # Parámetros de nuestro almacenamiento:
 
